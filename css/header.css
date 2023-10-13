@@ -77,14 +77,14 @@
 
 .header .signup .exit {
   transform: rotate(180deg);
-  margin-right: 10px;
+  margin-right: 2px;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(184deg) brightness(107%) contrast(103%);
 }
 
 .header .signup .dropdown-menu,
 .header .signup .dropdown-menu[data-bs-popper] {
   margin-top: 1px;
-  padding: 5px 20px;
+  padding: 5px 10px;
   background-color: #fff;
 }
 
@@ -217,7 +217,15 @@
   .header .signup .dropdown-menu[data-bs-popper] {
     position: absolute;
     z-index: 999;
-    padding: 10px 30px;
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 991.98px) and (min-width: 767px){
+  .header .signup .dropdown-menu[data-bs-popper] {
+    position: absolute;
+    z-index: 999;
+    padding: 0px 30px;
   }
 }
 
@@ -307,5 +315,9 @@ body {
 
   .footer .list-square a {
     font-size: 1rem;
+  }
+
+  .header .signup .dropdown-menu[data-bs-popper] a{
+    text-align: center;
   }
 }

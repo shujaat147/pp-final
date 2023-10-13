@@ -2905,6 +2905,11 @@ img {
 
 .blogs .card:hover {
     cursor: pointer;
+    background-color: #eec73c;
+}
+
+.blogs .card img{
+    mix-blend-mode: normal;
 }
 
 .blogs .card-title {
@@ -2968,5 +2973,19 @@ img {
 
 .blog-template span{
     color: #eec73c;
+}
+
+@media (max-width: 991.98px) {
+    .blog-template h2 {
+        font-size: 1.5rem;
+    }
+
+    .blog-template p {
+        font-size: 1rem;
+    }
+
+    .blog-template h3 {
+        font-size: 1.2rem;
+    }
 }
 /* Blog-temaplate file end*/
