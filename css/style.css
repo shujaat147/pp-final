@@ -2905,7 +2905,11 @@ img {
 
 .blogs .card:hover {
     cursor: pointer;
-    background-color: #eec73c;
+    background: rgba(238, 199, 60, 0.3);
+}
+
+.blogs .card:hover span {
+    color: #814E00;
 }
 
 .blogs .card img{
@@ -2915,12 +2919,13 @@ img {
 .blogs .card-title {
     font-size: 1.4rem;
     font-weight: 600;
+    line-height: 1.3;
 }
 
 .blogs .card-text {
     font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .blogs .card-text span {
